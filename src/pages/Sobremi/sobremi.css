@@ -1,0 +1,106 @@
+.main {
+    color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 3rem 0 0 3rem;
+    box-sizing: content-box;
+}
+
+.sbm-title {
+    background-color: rgb(73, 71, 71);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    display: flex;
+}
+
+.sbm-title p {
+    height: 2rem;
+}
+
+h2 {
+    height: 4rem;
+    padding: 1.2rem 0 0 2rem;
+}
+
+h3 {
+    height: 5rem;
+    width: 40rem;
+    padding: 1.2rem 0 0 2rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    height: 5rem;
+    width: 40rem;
+    padding: .4rem 0 0 2rem;
+}
+
+.hover-options {
+    background-color: rgba(0, 128, 0, 0.55);
+    width: 5rem;
+    height: 1.2rem;
+    margin: 0 0 4.7rem 1.6rem;
+    padding: 0;
+}
+
+.hover-options:hover {
+    color: blue;
+    background-color: rgba(0, 128, 0, 0.793);
+    width: 6rem;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(4, 255, 0, 0.5);
+}
+
+.efecto {
+    display: flex;
+}
+
+.marcador {
+    font-size: 1.8rem;
+    margin: -.72rem 0 0 -1.9rem;
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+.photo-perfil {
+    position: absolute;
+    z-index: -1;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    border: 5px solid rgb(103, 102, 102);
+    margin: 15rem 0 0 39rem;
+    background-image: url('../../../public/samPerfil-removebg-preview.jpg');
+    background-position: center;
+    background-size:cover;
+}

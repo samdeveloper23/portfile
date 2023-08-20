@@ -1,0 +1,14 @@
+main {
+    grid-area: main;
+    background-color: rgba(0, 44, 0, 0.781);
+    height: 30rem;
+    width: 45rem;
+    display: flex;
+    border: 5px solid rgb(103, 102, 102);
+    box-sizing:border-box;
+}
+
+a {
+    text-decoration: none;
+    color:greenyellow;
+}

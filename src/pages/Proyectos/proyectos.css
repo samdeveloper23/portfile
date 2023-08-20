@@ -1,0 +1,170 @@
+.container-proyect {
+    width: 50rem;
+    height: 35rem;
+    border: 5px solid rgb(103, 102, 102);
+    position: absolute;
+    margin: 3rem 0 0 7rem;
+    background-color: rgba(128, 128, 128, 0.981);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    overflow: scroll;
+    padding-top: 4rem;
+    gap: 2rem
+}
+
+.sbm-title-two {
+    background-color: rgb(73, 71, 71);
+    width: 100%;
+    padding: 0;
+    margin: -4rem 0 0 0;
+    display: flex;
+    position: fixed;
+    width: 49.4rem;
+    height: 2rem;
+}
+
+.sbm-title-two p {
+    margin-left: -1rem;
+}
+
+.img-one {
+    height: 8rem;
+    width: 14rem;
+    background-image: url('../../../public/moviequiz.png');
+    background-size: contain;
+    border-radius: 12px 12px 0 0;
+}
+
+.img-two {
+    height: 8rem;
+    width: 14rem;
+    background-image: url('../../../public/piedrapapeltijera.png');
+    background-size: contain;
+    border-radius: 12px 12px 0 0;
+}
+
+.img-three {
+    height: 8rem;
+    width: 14rem;
+    background-image: url('../../../public/arcade.png');
+    background-size: contain;
+    border-radius: 12px 12px 0 0;
+}
+
+.img-four {
+    height: 8rem;
+    width: 14rem;
+    background-image: url('../../../public/cruzraya.png');
+    background-size: contain;
+    border-radius: 12px 12px 0 0;
+}
+
+.img-five {
+    height: 8rem;
+    width: 14rem;
+    background-image: url('../../../public/pokemon.png');
+    background-size: contain;
+    border-radius: 12px 12px 0 0;
+}
+
+.img-six {
+    height: 8rem;
+    width: 14rem;
+    background-image: url('../../../public/navesespaciales.png');
+    background-size: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.img-seven {
+    height: 8rem;
+    width: 14rem;
+    background-image: url('../../../public/chapapp.png');
+    background-size: contain;
+    border-radius: 12px 12px 0 0;
+}
+
+.img-eight {
+    height: 8rem;
+    width: 14rem;
+    background-image: url('../../../public/tatooart.png');
+    background-size: contain;
+    border-radius: 12px 12px 0 0;
+}
+
+.img-nine {
+    height: 8rem;
+    width: 14rem;
+    background-image: url('../../../public/github.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px 12px 0 0;
+}
+
+.description-one {
+    width: 14rem;
+    height: 10rem;
+    background-color: rgb(73, 71, 71);
+    border-radius: 0 0 12px 12px;
+}
+
+.container-card {
+    height: 18rem;
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    border-radius: 0 0 12px 12px;
+    margin-left: 0.7rem;
+}
+
+.container-card:hover {
+    height: 18rem;
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    border-radius: 12px 12px 12px 12px;
+    margin-left: 0.7rem;
+    box-shadow: 0 0 8px white;
+}
+
+.container-card h3 {
+    text-align: center;
+    width: 14rem;
+    height: 2rem;
+    margin: .4rem 0;
+    padding: 0;
+    color: rgb(198, 198, 198);
+    text-decoration:underline;
+}
+
+.container-card p {
+    text-align: center;
+    width: 14rem;
+    height: 2rem;
+    margin: 0.4rem 0 .1rem 0;
+    padding: 0;
+    color: gray;
+}
+
+.container-card p:hover {
+    text-align: center;
+    width: 13rem;
+    height: auto;
+    min-height: 1.6rem;
+    margin: auto;
+    padding: 0;
+    color: rgb(187, 187, 187);
+    background-color: rgb(70, 70, 70);
+    border-radius: 14px;
+    box-shadow: 0 0 10px white;
+}
+
+h2 {
+    color: greenyellow;
+}

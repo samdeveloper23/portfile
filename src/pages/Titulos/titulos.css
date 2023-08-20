@@ -1,0 +1,49 @@
+.carpeta-titulos {
+    border: 8px solid rgb(86, 85, 85);
+    width: 60rem;
+    height: 34.4rem;
+    background-color: rgba(128, 128, 128, 0.981);
+    display: flex;
+    flex-direction: column;
+}
+
+.sbm-title {
+    background-color: rgb(73, 71, 71);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    display: flex;
+}
+
+.sbm-title p {
+    margin-left: -.98rem;
+}
+
+.lista-titulos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 3rem;
+}
+
+.lista-titulos h3 {
+    width: 12rem;
+}
+
+.lista-titulos p {
+    width: 10rem;
+}
+
+.advertencia {
+    background-color: rgba(104, 37, 37, 0.421);
+    border-radius: 14px 14px 14px 0;
+    padding: 0 1rem;
+}
+
+.precarga p {
+    text-decoration: underline;
+    color: rgb(138, 39, 39);
+}

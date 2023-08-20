@@ -1,0 +1,27 @@
+.container-aficiones {
+    width: 60rem;
+    height: 40rem;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.726);
+    gap: 6rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+.container-aficiones h2 {
+    color: black;
+}
+
+.correccion {
+    margin-top: -5.7rem;
+    margin-left: 3rem;
+}
+
+.title-afi {
+    margin-left: -7rem;
+}
+
+li {
+    list-style: none;
+    margin: 1rem;
+}

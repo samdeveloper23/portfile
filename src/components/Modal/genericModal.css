@@ -1,0 +1,49 @@
+.modal-close {
+    position: relative;
+    top: -100px;
+    left: 8rem;
+    background-color: transparent;
+    border: none;
+    color: rgb(156, 154, 154);
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    background-color: gray;
+    border-radius: 12px;
+    width: 6rem;
+    height: 1.9rem;
+}
+
+.modal-close:hover {
+    transform: scale(1.2);
+    color: brown;
+}
+
+.modal-header {
+    width: 22rem;
+    height: 10rem;
+    border: 1px rgba(255, 0, 0, 0.612) solid;
+    border-radius: 14px;
+    background-color: rgb(58, 55, 55);
+}
+
+.modal-header h3 {
+    color: rgb(136, 173, 206);
+    width: 20rem;
+    height: 10rem;
+    font-size: 24px;
+}
+
+.modal-content p {
+    color:  rgb(136, 173, 206);
+    width: 20rem;
+    height: 10rem;
+    margin-top: -6rem;
+}
+
+.container-modal {
+    width: 20rem;
+    height: 10rem;
+    margin: 8rem auto;
+    text-align: center;
+}
