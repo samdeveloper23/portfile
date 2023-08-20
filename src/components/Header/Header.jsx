@@ -1,8 +1,33 @@
 import './header.css';
 import introVideo from '../../../public/intro.mp4';
 import { NavLink } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
 const Header = () => {
+    const [startTime, setStartTime] = useState(Date.now());
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            const currentTime = Date.now();
+            const elapsedTime = Math.floor((currentTime - startTime) / 1000); // Tiempo transcurrido en segundos
+            document.getElementById(
+                'reloj'
+            ).textContent = `Tiempo transcurrido: ${formatTiempo(elapsedTime)}`;
+        }, 1000);
+
+        return () => {
+            clearInterval(interval);
+        };
+    }, [startTime]);
+
+    const formatTiempo = (seconds) => {
+        const dias = Math.floor(seconds / 86400);
+        const horas = Math.floor((seconds % 86400) / 3600);
+        const minutos = Math.floor((seconds % 3600) / 60);
+        const segundos = seconds % 60;
+
+        return `${dias} días, ${horas} horas, ${minutos} minutos, ${segundos} segundos`;
+    };
     return (
         <div className='header'>
             <div className='header-video'>
@@ -20,7 +45,7 @@ const Header = () => {
             </div>
             <nav className='header-nav'>
                 <ul className='nav-align'>
-                    <NavLink to={'/sobremi'}>
+                    <NavLink to={'/'}>
                         <li className='hover-list'>sobre mí</li>
                     </NavLink>
                     <NavLink to={'/proyectos'}>
@@ -40,7 +65,10 @@ const Header = () => {
                     </NavLink>
                 </ul>
             </nav>
-            <div className='reloj'>reloj desde que se despregó la WebApp</div>
+
+            <div id='reloj' className='reloj'>
+                Tiempo transcurrido: 0 días, 0 horas, 0 minutos, 0 segundos
+            </div>
         </div>
     );
 };
