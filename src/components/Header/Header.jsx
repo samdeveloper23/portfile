@@ -46,28 +46,28 @@ const Header = () => {
             <nav className='header-nav'>
                 <ul className='nav-align'>
                     <NavLink to={'/'}>
-                        <li className='hover-list'>sobre mí</li>
+                        <li className='hover-list'>Sobre mí</li>
                     </NavLink>
                     <NavLink to={'/proyectos'}>
-                        <li className='hover-list'>proyectos</li>
+                        <li className='hover-list'>Proyectos</li>
                     </NavLink>
                     <NavLink to={'/objetivos'}>
-                        <li className='hover-list'>objetivos</li>
+                        <li className='hover-list'>Objetivos</li>
                     </NavLink>
                     <NavLink to={'/titulos'}>
-                        <li className='hover-list'>títulos</li>
+                        <li className='hover-list'>Títulos</li>
                     </NavLink>
                     <NavLink to={'/aficiones'}>
-                        <li className='hover-list'>aficiones</li>
+                        <li className='hover-list'>Aficiones</li>
                     </NavLink>
                     <NavLink to={'/contacto'}>
-                        <li className='hover-list'>contacto</li>
+                        <li className='hover-list'>Contacto</li>
                     </NavLink>
                 </ul>
             </nav>
 
             <div id='reloj' className='reloj'>
-                Tiempo transcurrido: 0 días, 0 horas, 0 minutos, 0 segundos
+                Tiempo transcurrido: 0 minutos, 0 segundos
             </div>
         </div>
     );
