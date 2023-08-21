@@ -39,7 +39,7 @@ const Sobremi = () => {
                 Cada línea de código que escribía era un paso hacia la
                 comprensión y la maestría. El tiempo invertido y la dedicación
                 constante me permitieron avanzar y construir proyectos que, una
-                vez parecían inalcanzables, ahora eran una realidad. No solo se
+                vez parecían inalcanzables, ahora son una realidad. No solo se
                 trataba de aprender un lenguaje de programación, sino de
                 descubrir una forma de expresión y creatividad que me cautivaba
                 por completo.
