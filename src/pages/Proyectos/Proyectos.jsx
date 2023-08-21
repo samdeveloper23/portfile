@@ -7,7 +7,7 @@ const Proyectos = () => {
             <h2>-Proyectos:</h2>
             <div className='container-proyect'>
                 <div className='sbm-title-two'>
-                    <p>Algúnos de mís proyectos</p>
+                    <p>Algunos de mis proyectos</p>
                 </div>
                 <div className='container-card'>
                     <NavLink
@@ -32,8 +32,8 @@ const Proyectos = () => {
                             target='_blank'
                         >
                             <p>
-                                -> Bateria de preguntas sobre cine, este
-                                proyecto fué uno de los primeros.
+                                ➤ Batería de preguntas sobre cine. Este proyecto
+                                fue uno de los primeros.
                             </p>
                         </NavLink>
                     </div>
@@ -50,7 +50,7 @@ const Proyectos = () => {
                             to={'https://willowy-kelpie-d8598b.netlify.app/'}
                             target='_blank'
                         >
-                            <h3>Piedra Papel o Tijera</h3>
+                            <h3>Piedra, Papel o Tijera.</h3>
                         </NavLink>
                         <NavLink
                             to={
@@ -59,9 +59,9 @@ const Proyectos = () => {
                             target='_blank'
                         >
                             <p>
-                                -> Qué mejor para desarrollar buenas habilidades
-                                que realizar un juego el cual todos nos sentimos
-                                identificados en nuestra infancia.
+                                ➤ Qué mejor manera de desarrollar habilidades
+                                que crear un juego con el cual todos nos
+                                identificamos desde nuestra infancia.
                             </p>
                         </NavLink>
                     </div>
@@ -78,7 +78,7 @@ const Proyectos = () => {
                             to={'https://moonlit-sawine-5d687d.netlify.app'}
                             target='_blank'
                         >
-                            <h3>Rompe ladrillos</h3>
+                            <h3>Rompe Ladrillos.</h3>
                         </NavLink>
                         <NavLink
                             to={
@@ -87,7 +87,7 @@ const Proyectos = () => {
                             target='_blank'
                         >
                             <p>
-                                -> Como modo de repaso realicé éste clasico
+                                ➤ Como modo de repaso, realicé este clásico
                                 juego, reforzando la lógica y conceptos.
                             </p>
                         </NavLink>
@@ -105,7 +105,7 @@ const Proyectos = () => {
                             to={'https://dancing-beignet-23847c.netlify.app/'}
                             target='_blank'
                         >
-                            <h3>Cruz y raya</h3>
+                            <h3>Cruz y Raya.</h3>
                         </NavLink>
                         <NavLink
                             to={
@@ -114,7 +114,7 @@ const Proyectos = () => {
                             target='_blank'
                         >
                             <p>
-                                -> ¿Por qué no divertirse mientras fijamos
+                                ➤ ¿Por qué no divertirse mientras consolidamos
                                 conceptos en React?
                             </p>
                         </NavLink>
@@ -136,7 +136,7 @@ const Proyectos = () => {
                             }
                             target='_blank'
                         >
-                            <h3>Pokedex</h3>
+                            <h3>Pokedex.</h3>
                         </NavLink>
                         <NavLink
                             to={
@@ -145,9 +145,9 @@ const Proyectos = () => {
                             target='_blank'
                         >
                             <p>
-                                -> Créo que éste proyecto es esencial cuando
-                                queremos aprender a realizar llamadas a API´s,
-                                me sirvió para repasar muchos conceptos.
+                                ➤ Creo que este proyecto es esencial cuando
+                                queremos aprender a realizar llamadas a APIs. Me
+                                sirvió para repasar muchos conceptos.
                             </p>
                         </NavLink>
                     </div>
@@ -166,7 +166,7 @@ const Proyectos = () => {
                             }
                             target='_blank'
                         >
-                            <h3>Nave espacial</h3>
+                            <h3>Nave Espacial.</h3>
                         </NavLink>
                         <NavLink
                             to={
@@ -175,9 +175,9 @@ const Proyectos = () => {
                             target='_blank'
                         >
                             <p>
-                                -> Bueno, simpremente recordaré este juego con
-                                mucho cariño, lo realice mediante un reto que me
-                                puso un profesor en Hack a Boss.
+                                ➤ Bueno, simplemente recordaré este juego con
+                                mucho cariño. Lo realicé como parte de un reto
+                                propuesto por un profesor en Hack a Boss.
                             </p>
                         </NavLink>
                     </div>
@@ -205,8 +205,8 @@ const Proyectos = () => {
                             target='_blank'
                         >
                             <p>
-                                Aprendí Sokect y lo realice en JQuery
-                                demostrando que no tengo limites a la hora de
+                                ➤ Aprendí Socket y lo realicé en jQuery,
+                                demostrando que no tengo límites a la hora de
                                 aprender.
                             </p>
                         </NavLink>
@@ -235,7 +235,7 @@ const Proyectos = () => {
                             }
                             target='_blank'
                         >
-                            <p>-> Repositorio GitHub Front</p>
+                            <p>➤ Repositorio GitHub Front</p>
                         </NavLink>
                         <NavLink
                             to={
@@ -243,10 +243,10 @@ const Proyectos = () => {
                             }
                             target='_blank'
                         >
-                            <p>-> Repositorio GitHub Back</p>
+                            <p>➤ Repositorio GitHub Back</p>
                         </NavLink>
                         <p>
-                            Red social realizada como proyecto final en Hack a
+                            ➤Red social realizada como proyecto final en Hack a
                             Boss.
                         </p>
                     </div>
@@ -269,7 +269,7 @@ const Proyectos = () => {
                             to={'https://github.com/samdeveloper23'}
                             target='_blank'
                         >
-                            <p>-> Todos mis repositorios</p>
+                            <p>➤ Todos mis repositorios</p>
                         </NavLink>
                     </div>
                 </div>

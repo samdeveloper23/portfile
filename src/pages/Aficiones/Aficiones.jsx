@@ -8,7 +8,7 @@ const Aficiones = () => {
                 <h3 className='title-afi'>Deportes:</h3>
                 <div className='correccion'>
                     <li>Espeología</li>
-                    <li>Cayoning</li>
+                    <li>Canyoning</li>
                     <li>Fitness</li>
                     <li>Drone racing pilot</li>
                 </div>
@@ -17,7 +17,7 @@ const Aficiones = () => {
                 <h3 className='title-afi'>Culturales:</h3>
                 <div className='correccion'>
                     <li>Lectura</li>
-                    <li>Impresión artistica</li>
+                    <li>Impresión artística</li>
                     <li>Piano</li>
                     <li>Guitarra acústica</li>
                 </div>
@@ -25,19 +25,19 @@ const Aficiones = () => {
             <ul>
                 <h3 className='title-afi'>Tecnológicas:</h3>
                 <div className='correccion'>
-                    <li>Rescate de pc obsoletos</li>
+                    <li>Rescate de PCs obsoletos</li>
                     <li>Estudio de nuevas tendencias</li>
-                    <li>Montaje y calibrado de drones</li>
+                    <li>Montaje y calibración de drones</li>
                 </div>
             </ul>
             <ul>
                 <h3 className='title-afi'>Voluntariados:</h3>
                 <div className='correccion'>
-                    <li>Refúgio de animales Sierra nevada</li>
+                    <li>Refúgio de animales Sierra Nevada</li>
                     <li>
-                        Residencia de personas mayores Hermanitas de los pobres
+                        Residencia de personas mayores Hermanitas de los Pobres
                     </li>
-                    <li>Proteccion Civil Las Gabias</li>
+                    <li>Protección Civil Las Gabias</li>
                 </div>
             </ul>
         </div>

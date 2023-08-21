@@ -62,10 +62,10 @@ const Titulos = () => {
                 </div>
                 <div className='advertencia'>
                     Estos son algunos de los títulos relacionados con la
-                    programación web, para conocer todos pongase en contacto,
-                    como autodidacta me apasiona los codigos hasta el punto de
-                    aprender ciberseguridad cullos titulos están guardados en mi
-                    nube personal realizada por mí.
+                    programación web. Para conocer todos, póngase en contacto.
+                    Como autodidacta, me apasionan los códigos hasta el punto de
+                    aprender ciberseguridad, cuyos títulos están guardados en mi
+                    nube personal, realizada por mí.
                 </div>
             </div>
         </main>
